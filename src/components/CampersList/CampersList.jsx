@@ -14,7 +14,6 @@ import { setPage } from "../../redux/campers/slice.js";
 
 export default function CampersList() {
   const campers = useSelector(selectFilteredCampers);
-  console.log("Filtered campers:", campers);
 
   const page = useSelector(selectCurrentPage);
   const limit = useSelector(selectLimit);

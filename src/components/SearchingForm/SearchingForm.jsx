@@ -37,7 +37,6 @@ export default function SearchingForm() {
     <Formik
       initialValues={initialValues}
       onSubmit={(values, action) => {
-        console.log(values);
         dispatch(changeFilters(values));
         action.resetForm();
       }}
