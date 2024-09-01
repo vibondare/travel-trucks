@@ -1,5 +1,3 @@
-import { useState } from "react";
-import "./App.css";
 import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage.jsx";

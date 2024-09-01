@@ -24,12 +24,6 @@ export default function CamperCard({ camper }) {
     engine,
   } = camper;
 
-  // const [isFav, setIsFav] = useState(false);
-
-  //   useEffect(() => {
-  //       setIsFav(isCamperFavorite(id));
-  //   }, []);
-
   const [_, setUpdate] = useState(false);
 
     const forceUpdate = () => {
@@ -66,11 +60,6 @@ export default function CamperCard({ camper }) {
           forceUpdate();
       }
   }
-
-//   const handleFavToggle = () => {
-//     toggleFavCamper(id);
-//     setIsFav(!isFav);
-// };
 
   return (
     <div className={css.container}>

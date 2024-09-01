@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 export default function Header({}) {
   return (
     <header className={css.header}>
-      {/* <img src={logo} className={css.logo} /> */}
       <Link to="/">
         <svg className={css.logo}>
           <use xlinkHref={`${sprite}#icon-logo`} />
