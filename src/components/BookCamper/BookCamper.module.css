@@ -1,0 +1,22 @@
+.bookCamperContainer {
+  box-sizing: border-box;
+  width: 641px;
+  padding: 44px 57px;
+  border: 1px solid var(--borders-light-gray);
+  border-radius: 10px;
+}
+
+.bookTitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--text-dark);
+}
+
+.bookText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--main-text-gray);
+  margin-top: 8px;
+}

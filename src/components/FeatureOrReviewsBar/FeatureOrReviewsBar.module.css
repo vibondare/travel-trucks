@@ -1,0 +1,42 @@
+.barContainer {
+  display: flex;
+  gap: 40px;
+  margin-top: 60px;
+  position: relative;
+}
+
+.barContainer::after {
+  content: "";
+  position: absolute;
+  top: 48px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: var(--borders-light-gray);
+}
+
+.button {
+  position: relative;
+  border: none;
+  background-color: transparent;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--text-dark);
+  padding: 0;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.currentButton::after {
+  content: "";
+  position: absolute;
+  top: 48px;
+  left: 0;
+  height: 5px;
+  width: 85px;
+  background-color: var(--red);
+}

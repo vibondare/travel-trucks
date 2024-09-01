@@ -1,0 +1,10 @@
+.catalogSection {
+  display: flex;
+  gap: 64px;
+  margin-top: 48px;
+  padding-bottom: 80px;
+}
+
+.hiddenTitle {
+  display: none;
+}

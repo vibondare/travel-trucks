@@ -1,0 +1,30 @@
+.hero {
+  background-image: url(../../assets/images/hero-background.jpg);
+  background-repeat: no-repeat;
+  padding: 260px 64px;
+}
+
+.title {
+    color: var(--inputs-light-gray);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.67;
+}
+
+.text {
+    margin-top: 16px;
+    color: var(--inputs-light-gray);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.32;
+}
+
+.link {
+    margin-top: 40px;
+}
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: url(../../assets/images/hero-background@2x.jpg);
+  }
+}

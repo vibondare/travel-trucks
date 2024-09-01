@@ -1,0 +1,28 @@
+.featuresContainer {
+  width: 631px;
+  background-color: var(--inputs-light-gray);
+  border-radius: 10px;
+  padding: 44px 52px;
+  box-sizing: border-box;
+}
+
+.vehicleDetailsText {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: var(--text-dark);
+  margin-top: 100px;
+  margin-bottom: 48px;
+}
+
+.vehicleDetailsText::after {
+  content: "";
+  position: absolute;
+  top: 48px;
+  left: 0;
+  background-color: var(--borders-light-gray);
+  height: 1px;
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 888px;
+}
+
+.loadMoreButton {
+    color: var(--text-dark);
+    border: 1px solid var(--borders-light-gray);
+    background-color: transparent;
+    margin-top: 40px;
+}
+
+.loadMoreButton:hover, .loadMoreButton:active {
+    border-color: var(--hover-red);
+    background-color: transparent;
+}

@@ -1,0 +1,133 @@
+.container {
+  box-sizing: border-box;
+  display: flex;
+  gap: 24px;
+  height: 368px;
+  padding: 24px;
+  border-radius: 20px;
+  border: 1px solid var(--borders-light-gray);
+}
+
+.imagePartContainer {
+  width: 292px;
+  height: 320px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.camperImage {
+  height: 100%;
+  width: auto;
+}
+
+.rightCardPartContainer {
+  width: 524px;
+}
+
+.nameAndPriceAndFavContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceAndFavContainer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.nameText {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.32;
+  text-align: left;
+  color: var(--text-dark);
+}
+
+.priceText {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.32;
+  text-align: left;
+  color: var(--text-dark);
+}
+
+.ratingAndLocationContainer {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.ratingContainer {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.locationContainer {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.iconFav {
+  width: 24px;
+  height: 24px;
+  fill: var(--text-dark);
+}
+
+.iconStar {
+  width: 16px;
+  height: 16px;
+  fill: var(--yellow);
+}
+
+.iconLocation {
+  width: 16px;
+  height: 16px;
+  fill: var(--text-dark);
+}
+
+.descriptionText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--main-text-bluish-gray);
+  margin-top: 24px;
+}
+
+.showMoreLink {
+  margin-top: 24px;
+}
+
+.ratingText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--text-dark);
+}
+
+.locationText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--text-dark);
+}
+
+.isFavButton {
+  border: none;
+  background-color: transparent;
+}
+
+.isFavButton:hover {
+  cursor: pointer;
+}
+
+.isFav {
+  fill: var(--red);
+}

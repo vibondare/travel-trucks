@@ -1,0 +1,18 @@
+.venicleDetailsList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.venicleDetailsItem {
+  display: flex;
+  justify-content: space-between;
+}
+
+.venicleDetailsText {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--text-dark);
+}

@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  gap: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navLink {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-dark);
+}
+
+.navLinkIsActive {
+  color: var(--hover-red);
+}

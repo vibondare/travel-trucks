@@ -1,0 +1,6 @@
+.infoAndFormContainer {
+    display: flex;
+    gap: 40px;
+    margin-top: 92px;
+    padding-bottom: 80px;
+}

@@ -1,0 +1,99 @@
+.nameText {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.32;
+  text-align: left;
+  color: var(--text-dark);
+}
+
+.priceText {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.32;
+  text-align: left;
+  color: var(--text-dark);
+  margin-top: 16px;
+}
+
+.ratingAndLocationContainer {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.ratingContainer {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.locationContainer {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.iconFav {
+  width: 24px;
+  height: 24px;
+  fill: var(--text-dark);
+}
+
+.iconStar {
+  width: 16px;
+  height: 16px;
+  fill: var(--yellow);
+}
+
+.iconLocation {
+  width: 16px;
+  height: 16px;
+  fill: var(--text-dark);
+}
+
+.ratingText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  text-decoration: underline;
+  color: var(--text-dark);
+}
+
+.locationText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--text-dark);
+}
+
+.imagesList {
+  display: flex;
+  gap: 48px;
+  margin-top: 28px;
+}
+
+.imageItem {
+  width: 292px;
+  height: 312px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image {
+  height: 100%;
+  width: auto;
+}
+
+.descriptionText {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--main-text-bluish-gray);
+  margin-top: 28px;
+}
